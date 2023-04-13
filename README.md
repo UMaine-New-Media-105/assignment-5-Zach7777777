@@ -1,8 +1,8 @@
-#Zach Smith Assignment 5 
+# Zach Smith Assignment 5 
 
-==========================================================================================================================================================================
 
-#Descriptions and Links 
+
+# Descriptions and Links 
 
 [Question 1](https://editor.p5js.org/zachary.w.smith/sketches/r8deFCKOh): I decided to make the backround an underwater color and made the bubbles look like bubbles using 3 ellipses. The bubbles also accept x , y , and radius arguments.  
 
