@@ -7,11 +7,11 @@ function setup() {
 function draw() {
   background(70,20,250);
   //creating bubbles
-  let bubble1 = new bubble(100,100,50)
-  let bubble2 = new bubble(200,400,50)
+  let bubble1 = new bubble(100,100,70)
+  let bubble2 = new bubble(200,400,70)
   let bubble3 = new bubble(700,150,50)
-  let bubble4 = new bubble(400,250,50)
-  let bubble5 = new bubble(850,400,50)
+  let bubble4 = new bubble(400,250,60)
+  let bubble5 = new bubble(850,400,60)
 
   //calling bubbles
   bubble1.move()
@@ -50,7 +50,7 @@ class bubble {
     fill(this.color2);
     ellipse(this.x, this.y, this.r-8);
     fill("white");
-    ellipse(this.x-8, this.y-11, this.r -40);
+    ellipse(this.x-8, this.y-11, this.r -45);
     pop();
   }
 }
